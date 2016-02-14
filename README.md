@@ -1,4 +1,4 @@
-Cellsociety
+Cell Society
 -----------
 
-Duke CompSci 308 Cell Society Project
+A cellular automata simulation engine.
