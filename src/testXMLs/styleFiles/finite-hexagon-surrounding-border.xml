@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   This file will include information about cell colors,
+   shapes, edge type, grid size (if infinite), cell outlines,
+   and neighbors to consider
+-->
+
+<styling>
+	<appearance>
+		<outlines outline="true"></outlines>
+	</appearance>
+
+	<behavior>
+		<edge edgeType="Finite"></edge>
+		<shape shapeType="Hexagon"></shape>
+		<neighbor neighbors="Surrounding"></neighbor>
+	</behavior>
+
+</styling>

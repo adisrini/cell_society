@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simulation>
+
+   <simInfo>
+      <gameType name="Langton"></gameType>
+      <title name= "Langton Loop One"></title>
+      <author name= "Team 25"></author>
+   </simInfo>
+
+   <parameters>
+   </parameters>
+
+   	<colormap>
+		<color state = "0" color = "Black"></color>
+		<color state = "1" color = "Blue"></color>
+		<color state = "2" color = "Red"></color>
+		<color state = "3" color = "Green"></color>
+		<color state = "4" color = "Yellow"></color>
+		<color state = "5" color = "Purple"></color>
+		<color state = "6" color = "White"></color>
+		<color state = "7" color = "Cyan"></color>
+	</colormap>
+
+   <grid>
+      
+         <row states = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"></row>
+         <row states = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"></row>
+         <row states = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"></row>
+         <row states = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"></row>
+         <row states = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"></row>
+         <row states = "0,0,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0"></row>
+         <row states = "0,2,1,7,0,1,4,0,1,4,2,0,0,0,0,0,0,0,0,0"></row>
+         <row states = "0,2,0,2,2,2,2,2,2,0,2,0,0,0,0,0,0,0,0,0"></row>
+         <row states = "0,2,7,2,0,0,0,0,2,1,2,0,0,0,0,0,0,0,0,0"></row>
+         <row states = "0,2,1,2,0,0,0,0,2,1,2,0,0,0,0,0,0,0,0,0"></row>
+         <row states = "0,2,0,2,0,0,0,0,2,1,2,0,0,0,0,0,0,0,0,0"></row>
+         <row states = "0,2,7,2,0,0,0,0,2,1,2,0,0,0,0,0,0,0,0,0"></row>
+         <row states = "0,2,1,2,2,2,2,2,2,1,2,2,2,2,2,0,0,0,0,0"></row>
+         <row states = "0,2,0,7,1,0,7,1,0,7,1,1,1,1,1,2,0,0,0,0"></row>
+         <row states = "0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0"></row>
+         <row states = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"></row>
+         <row states = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"></row>
+         <row states = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"></row>
+         <row states = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"></row>
+         <row states = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"></row>
+   </grid>
+
+</simulation>

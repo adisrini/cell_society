@@ -1,2 +1,4 @@
-# cell_society
-A cellular automata simulation engine.
+Cellsociety
+-----------
+
+Duke CompSci 308 Cell Society Project

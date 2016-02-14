@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simulation>
+
+	<simInfo>
+		<gameType name="Sugar"></gameType>
+		<title name= "Sugarscape"></title>
+		<author name= "Team 25"></author>
+	</simInfo>
+
+	<parameters>
+		<parameter game ="Sugar" name="VISION_MIN" value ="2"></parameter>
+		<parameter game ="Sugar" name="VISION_MAX" value ="1"></parameter>
+		<parameter game ="Sugar" name="SUGAR_MIN" value ="5"></parameter>
+		<parameter game ="Sugar" name="SUGAR_MAX" value ="180"></parameter>
+		<parameter game ="Sugar" name="SUGAR_METABOLISM_MIN" value ="180"></parameter>
+		<parameter game ="Sugar" name="SUGAR_METABOLISM_MAX" value ="180"></parameter>
+		<parameter game ="Sugar" name="INITIAL_SUGAR" value ="180"></parameter>
+	</parameters>
+	
+	<colormap>
+		<color state = "99" color = "Transparent"></color> 
+		<color state = "88" color = "Red"></color>
+		<color state = "0" color = "#FFF3E0"></color>
+		<color state = "1" color = "#FFE0B2"></color>
+		<color state = "2" color = "#FFB74D"></color>
+		<color state = "3" color = "#FF9800"></color>
+		<color state = "4" color = "#F57C00"></color>
+	</colormap>
+  
+  	<grid>
+  		<row states = "0,0,0,1,1,1,2,2,1,1"></row>
+  		<row states = "0,0,1,1,1,2,2,2,2,1"></row>
+  		<row states = "0,1,1,1,2,3,3,3,2,2"></row>
+  		<row states = "1,1,1,2,2,3,4,4,3,2"></row>
+  		<row states = "1,1,2,2,2,3,4,3,3,2"></row>
+  		<row states = "2,2,2,3,3,3,3,3,2,2"></row>
+  		<row states = "2,2,2,4,4,3,2,2,2,2"></row>
+  		<row states = "2,2,3,4,4,3,2,2,2,1"></row>
+  		<row states = "1,2,2,3,3,2,2,2,1,1"></row>
+  		<row states = "1,1,2,2,2,2,2,1,1,1"></row>
+	</grid>
+</simulation>

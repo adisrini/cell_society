@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simulation>
+
+	<simInfo>
+		<gameType name="SlimeCell"></gameType>
+		<title name= "Slime Mold Test"></title>
+		<author name= "Team 25"></author>
+	</simInfo>
+
+	<parameters>
+		<parameter game ="SlimeMold" name="CAMP_BOOST_VALUE" value ="2"></parameter>
+		<parameter game ="SlimeMold" name="EVAPORATION_RATE" value ="1"></parameter>
+		<parameter game ="SlimeMold" name="DETECTION_THRESHOLD" value ="5"></parameter>
+		<parameter game ="SlimeMold" name="SNIFF_ANGLE" value ="180"></parameter>
+		<parameter game ="SlimeMold" name="WIGGLE_BIAS" value ="180"></parameter>
+		<parameter game ="SlimeMold" name="WIGGLE_ANGLE" value ="180"></parameter>
+	</parameters>
+	
+	<colormap>
+		<color state = "99" color = "Transparent"></color> 
+		<color state = "88" color = "Purple"></color>
+		<color state = "0" color = "Blue"></color>
+		<color state = "1" color = "Black"></color>
+		<color state = "2" color = "Gray"></color>
+		<color state = "3" color = "White"></color>
+		<color state = "4" color = "Yellow"></color>
+		<color state = "5" color = "Orange"></color>
+		<color state = "6" color = "Red"></color>
+	</colormap>
+  
+  	<grid>
+  		<row states = "1,1,1,2,3"></row>
+		<row states = "1,1,1,2,2"></row>
+		<row states = "1,1,1,1,1"></row>
+		<row states = "1,1,1,1,1"></row>
+		<row states = "1,1,1,1,1"></row>
+		<row2 states = "99,99,99,99,99"></row2>
+		<row2 states = "99,99,99,99,99"></row2>
+		<row2 states = "99,99,99,99,99"></row2>
+		<row2 states = "99,99,99,99,99"></row2>
+		<row2 states = "88,99,99,99,99"></row2>
+	</grid>
+</simulation>

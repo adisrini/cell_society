@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   This file will include information about the kind of
+   simulation to run, parameters, and grid states
+-->
+
+<simulation>
+	<simInfo>
+		<gameType name=""></gameType>
+		<title name= ""></title>
+		<author name= ""></author>
+	</simInfo>
+
+   <parameters>
+      <parameter name= "" value=""></parameter>
+   </parameters>
+
+   <colors>   
+      <color state="0" color="BLACK"></color>
+      <color state="1" color="GREEN"></color>
+   </colors>
+
+   <grid>
+      <row states= ""></row>
+   </grid>
+
+</simulation>
